@@ -69,12 +69,6 @@ class _HomeDesktopPageState extends State<HomeDesktopPage> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        ButtonWidget(
-                          icon: Icons.menu,
-                          onBtnTap: () {},
-                          iconColor: Colors.black,
-                          backgroundColor: Colors.white,
-                        ),
                         Text(
                           'Imobiliare',
                           style: GoogleFonts.manrope(
@@ -137,7 +131,7 @@ class _HomeDesktopPageState extends State<HomeDesktopPage> {
                           decoration: InputDecoration(
                             hintText: 'Search for a city',
                             border: InputBorder.none,
-                            filled: true,
+                            filled: false,
                             fillColor: Colors.white,
                             contentPadding: EdgeInsets.all(16),
                             prefixIcon: Icon(Icons.search),

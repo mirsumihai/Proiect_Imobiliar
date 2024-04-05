@@ -12,7 +12,7 @@ class HouseGridWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return GridView.builder(
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
+        crossAxisCount: 3,
         crossAxisSpacing: 20.0,
         childAspectRatio: 1,
         mainAxisSpacing: 0.1,

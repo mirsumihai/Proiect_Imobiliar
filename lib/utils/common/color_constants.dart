@@ -3,8 +3,8 @@ import 'package:flav/models/house_model.dart';
 class ColorConstant {
   static const kDarkBlueColor = Color(0xFF12192b);
   static const kWhiteColor = Color.fromRGBO(255, 255, 255, 1);
-  static const kBlackColor = Colors.black;
-  static const kGreyColor = Colors.grey;
+  static const kBlackColor = Colors.grey;
+  static const kGreyColor = Colors.black;
   static const kGreenColor = Colors.green;
 }
 
